@@ -11,14 +11,14 @@
 
 
 
-import os, platform
+import os, platform, time
 
 try:
 
     import requests
 
 except:
-
+os.system('xdg-open https://youtube.com/channel/UCbT--Z1XzQpSUgjD6bfzzUA')
     os.system('xdg-open https://youtube.com/channel/UCbT--Z1XzQpSUgjD6bfzzUA')
 
 import requests
